@@ -1,0 +1,31 @@
+/* Add custom style here  */
+
+#hero-1 header.theme-dark {
+    background-color: var(--blue-700)
+}
+
+#hero-2 header.hero-bg>.container-overlay {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+#hero-2 header h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+    font-size: calc(60px + (120 - 60) * ((100vw - 320px)/ (1600 - 320)));
+}
+
+#hero-3 {
+    margin-top: 48px;
+}
+
+#hero-3 h1 {
+    font-family: 'Abril Fatface', sans-serif;
+    letter-spacing: 3px;
+    font-size: calc(60px + (120 - 60) * ((100vw - 320px)/ (1600 - 320)));
+}
+
+#hero-4 header.theme-light { background-color: var(--trend-100) }
+
+#hero-4 { margin-top: 48px;}
+
+#hero-4 h1 { font-family: 'Prata', serif; }
