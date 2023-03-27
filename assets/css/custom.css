@@ -1,18 +1,18 @@
-header.theme-dark { background-color: var(--fuchsia-200) }
-header.theme-dark h1 { color: var(--pink-100) }
-header.theme-dark h2 { color: var(--brown-800) }
+header.theme-dark { background-color: var(--white-200) } /* bg */
+header.theme-dark h1 { color: var(--red-600) }
+header.theme-dark h2 { color: var(--brown-700) } /* text */
 nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--fuchsia-200) }
+nav.theme-dark ul.links-wrapper.active { background-color: var(--red-600) } /*bg menu*/
 nav.theme-dark a#btn-cta:link,
-nav.theme-dark a#btn-cta:visited { color: var(--pink-100) }
+nav.theme-dark a#btn-cta:visited { color: var(--pink-900) } /*contact me font*/
 nav.theme-dark a#btn-cta:focus,
 nav.theme-dark a#btn-cta:hover,
-nav.theme-dark a#btn-cta:active { color: var(--pink-100) }
+nav.theme-dark a#btn-cta:active { color: var(--pink-600) } /*contact me font hoover*/
 nav.theme-dark ul.links-wrapper li a:link,
-nav.theme-dark ul.links-wrapper li a:visited { color: var(--pink-100) }
+nav.theme-dark ul.links-wrapper li a:visited { color: var(--pink-100) } /*home portfolio font */
 nav.theme-dark ul.links-wrapper li a:focus,
 nav.theme-dark ul.links-wrapper li a:hover,
-nav.theme-dark ul.links-wrapper li a:active { color: var(--fuchsia-900) }
+nav.theme-dark ul.links-wrapper li a:active { color: var(--pink-100) } /*home portfolio font hoover*/
 
 header.theme-dark h1 {
     font-family:'Abel', sans-serif;
