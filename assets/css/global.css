@@ -55,3 +55,22 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+header.theme-dark { background-color: var(--fuchsia-200) }
+header.theme-dark h1 { color: var(--pink-100) }
+header.theme-dark h2 { color: var(--brown-800) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--fuchsia-200) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { color: var(--pink-100) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { color: var(--pink-100) }
+nav.theme-dark ul.links-wrapper li a:link,
+nav.theme-dark ul.links-wrapper li a:visited { color: var(--pink-100) }
+nav.theme-dark ul.links-wrapper li a:focus,
+nav.theme-dark ul.links-wrapper li a:hover,
+nav.theme-dark ul.links-wrapper li a:active { color: var(--fuchsia-900) }
+
+header.theme-dark h1 {
+    font-family:'Abel', sans-serif;
+}
