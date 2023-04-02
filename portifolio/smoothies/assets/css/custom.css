@@ -73,3 +73,5 @@ section>p.deckhead {
 .cols-2-half .col-2 p {
     letter-spacing: 1px
 }
+
+#email-box{ border: solid 1px #000; padding: 4px 8px;}
