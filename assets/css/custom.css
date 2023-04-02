@@ -2,7 +2,7 @@ header.theme-dark { background-color: var(--white-200) } /* bg */
 header.theme-dark h1 { color: var(--red-600) }
 header.theme-dark h2 { color: var(--brown-700) } /* text */
 nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--red-600) } /*bg menu*/
+nav.theme-dark ul.links-wrapper.active { background-color: var(--red-800) } /*bg menu*/
 nav.theme-dark a#btn-cta:link,
 nav.theme-dark a#btn-cta:visited { color: var(--pink-900) } /*contact me font*/
 nav.theme-dark a#btn-cta:focus,
@@ -14,8 +14,28 @@ nav.theme-dark ul.links-wrapper li a:focus,
 nav.theme-dark ul.links-wrapper li a:hover,
 nav.theme-dark ul.links-wrapper li a:active { color: var(--pink-100) } /*home portfolio font hoover*/
 
-header.theme-dark h1 {
-    font-family:'Abel', sans-serif;
+.theme-light h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #db9340;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-
+.theme-0 h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
